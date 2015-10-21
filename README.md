@@ -39,4 +39,4 @@ WebIDE相关文档：https://coding.net/help/doc/webide/index.html
 示例项目默认已开启演示平台，可点击[http://zhimaxiaoren-demo.coding.io](http://zhimaxiaoren-demo.coding.io)进行访问。
 
 
-演示平台相关文档：http://docs.coding.io
+演示平台相关文档：https://coding.net/help/doc/paas/index.html
