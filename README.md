@@ -22,8 +22,21 @@ PS：该项目不支持更改项目名称、项目转让功能。
 
 根目录下必须存在 `index.php` 或 `composer.json` 文件。
 
+
+## WebIDE
+
+你可以进入WebIDE对代码进行编辑，省去了安装配置本地环境的繁琐，只需要一个浏览器就可以开始写代码，体验语法高亮、代码提示、Git管理、分享终端环境等强大功能。
+
+
+WebIDE相关文档：https://coding.net/help/doc/webide/index.html
+
 ## 本地测试
 
-简单测试：将代码clone到本地目录后，在目录下执行 `php -S 0.0.0.0:8000` 启动服务器，访问 [http://localhost:8000](http://localhost:8000) 即可以预览效果。
+将代码clone到本地目录后，在目录下执行 `php -S 0.0.0.0:8000` 启动服务器，访问 [http://localhost:8000](http://localhost:8000) 即可以预览效果。
 
 ## 演示平台
+
+示例项目默认已开启演示平台，可点击[http://zhimaxiaoren-demo.coding.io](http://zhimaxiaoren-demo.coding.io)进行访问。
+
+
+演示平台相关文档：http://docs.coding.io
