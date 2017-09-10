@@ -17,24 +17,15 @@ public:
     void SetColumnWidth(int column, int width);
 
 protected:
-    void paintEvent(QPaintEvent *);
+//    void paintEvent(QPaintEvent *);
 
 private:
     void InsertRow(int insert_postion, int num);
 
-    QVector< QVector<QString> > data;
     int row;
     int column;
-    QVector<bool> row_invisible;
-    QColor default_background_color;
-    QVector< QVector<QColor> > color_vec;
-    QVector< QVector<Qt::Alignment> > alignment_vec;
-    int row_height;
-    QVector<int> column_width;
-
-    bool is_need_resize;
-//    QGridLayout *layout;
-//    QPalette default_background_color_palette;
+    QGridLayout *layout;
+    QPalette default_background_color_palette;
 };
 
 #endif // TABLE_WIDGET_H
