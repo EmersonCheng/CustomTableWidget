@@ -1,4 +1,4 @@
-#include "table_widget.h"
+﻿#include "table_widget.h"
 #include <QApplication>
 #include <QDebug>
 #include <QPainter>
@@ -7,6 +7,7 @@ TableWidget::TableWidget(int row, int column, QWidget *parent) :
     QFrame(parent),row(row),column(column)
 {
     data.resize(row);
+
     for(int i = 0; i < row; i++)
     {
         data[i].resize(column);

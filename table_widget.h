@@ -1,4 +1,4 @@
-#ifndef TABLE_WIDGET_H
+﻿#ifndef TABLE_WIDGET_H
 #define TABLE_WIDGET_H
 
 #include <QFrame>
