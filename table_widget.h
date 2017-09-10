@@ -33,8 +33,7 @@ private:
     QVector<int> column_width;
 
     bool is_need_resize;
-//    QGridLayout *layout;
-//    QPalette default_background_color_palette;
+
 };
 
 #endif // TABLE_WIDGET_H

@@ -201,6 +201,10 @@ void TableWidget::InsertRow(int insert_postion, int num)
     row += num;
 
     QVector<QString> insert_row(column);
+    for(int i = 0; i < column; i++)
+    {
+        insert_row[i] = "";
+    }
     data.insert(insert_postion,num,insert_row);
 
     row_invisible.insert(insert_postion,num,false);
@@ -209,7 +213,11 @@ void TableWidget::InsertRow(int insert_postion, int num)
     color_vec.insert(insert_postion,num,insert_row_color);
 
     QVector<Qt::Alignment> insert_row_alignment(column);
-    color_vec.insert(insert_postion,num,insert_row_alignment);
+    for(int i = 0; i < column; i++)
+    {
+        insert_row_alignment[i] = Qt::AlignLeft;
+    }
+    alignment_vec.insert(insert_postion,num,insert_row_alignment);
 
     is_need_resize = true;
 }
