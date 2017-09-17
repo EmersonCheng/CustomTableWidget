@@ -13,7 +13,7 @@ public:
     void HideRow(int row, bool invisible);
     void SetCellBackgroundColor(int row, int column, const QColor &color);
     void ResetAllCellsBackgroundColor();
-    void SetHorizonAlignment(int row, int column, Qt::Alignment alignment);
+    void SetAlignment(int row, int column, Qt::Alignment alignment);
     void SetColumnWidth(int column, int width);
 
 protected:

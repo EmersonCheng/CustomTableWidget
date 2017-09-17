@@ -59,7 +59,7 @@ void TableWidget::ResetAllCellsBackgroundColor()
     }
 }
 
-void TableWidget::SetHorizonAlignment(int row, int column, Qt::Alignment alignment)
+void TableWidget::SetAlignment(int row, int column, Qt::Alignment alignment)
 {
     QLabel *label = static_cast<QLabel *>(layout->itemAtPosition(row,column)->widget());
     label->setAlignment(alignment);
