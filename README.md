@@ -1,5 +1,5 @@
-#Demo
-writing tabel widget module
+#CustomTableWidget
+Custom TableWidget for Qt
 
 method 1: using QT painting system 
 
